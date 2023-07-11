@@ -205,4 +205,39 @@ section{
     color: rgba(255, 255, 255, 0.90);
    }
 /* Footer Part End */
+/* Client Part */
+.our-clients-container{
+    text-align: center;
+}
+.clients-comment-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients-comment{
+    width: 250px;
+    height: 200px;
+    box-shadow: 4px 4px 8px red;
+    padding: 25px 15px;
+    text-align: center;
+    color: #D9EFF1;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.clients-comment img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(231, 4, 4);
+}
+.clients-talk{
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #272727;
+    text-align: justify;
+    font-weight: 700;
+    box-sizing: border-box;
+}
  
