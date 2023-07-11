@@ -15,6 +15,9 @@
     color: #fff;
     font-size: 20px;
 }
+.color-primary{
+    color: #E55473 ;
+}
 .description{
     color: #7C7778;
     font-size: 17px;
@@ -26,6 +29,10 @@
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
+}
+.mini-title2{
+    font-size: 25px;
+    font-weight: 800;
 }
 .featured-container p{
     width: 580px;
@@ -60,10 +67,10 @@
     height: 580px;
  }
  /* Heading-Part end */
+ /* Featured Part Start */
  .featured-container{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    height: 100vh;
+    margin: 80px auto;
+    
  }
  .description-of-featured{
     text-align: center;
@@ -75,8 +82,8 @@
  }
  .box{
     background-color: rgba(167, 33, 98, 0.15);
-    width: 200px;
-    height: 250px;
+    width: 370px;
+    height: 350px;
     border-radius: 300px 300px 0px 0px;
     text-align: center;
  }
@@ -91,19 +98,58 @@
     align-items: center;
     gap: 15px;
  }
- /* .link-case{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 25px;
- } */
  .box a{
     display: block;
     text-decoration: underline;
     font-size: 16px;
     font-weight: 800;
-    margin-top: 15px;
+    margin-top: 120px;
     color: #272727;
  }
+ .bg-col2{
+    background-color: #D9EFF1;
+ }
+ .bg-col3{
+    background-color: #E3EBDB;
+ }
+ /* Featured Part End */
+ /* .call-service-Start */
+.call-service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#F4F4F4 ;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.call-service{
+    text-align: center;
+    
+}
+ .call-service img{
+    width: 50px;
+ }
+ .call-service p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.80);
+ }
+  /* .call-service-End */
+   /* .Hot-deals-Start */
+   .hot-dealscontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF6F8;
+    padding: 80px;
+    margin-bottom: 120px;
+   }
+   .hot-deals{
+    text-align: center;
+   }
+   .hot-deals p{
+    width: 550px;
+   }
 
  
