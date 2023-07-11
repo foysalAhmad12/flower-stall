@@ -8,7 +8,7 @@
     margin: auto;
 }
 .btn-primary{
-    padding: 20px 43px;
+    padding: 15px 40px;
     background-color:  #E55473;
     border-radius: 8px;
     border: none;
@@ -34,6 +34,10 @@
     font-size: 25px;
     font-weight: 800;
 }
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* Header-Part-Start */
 .header{
@@ -54,7 +58,7 @@
 }
 .heading-flower-pic img{
     margin-top: 50px;
-    height: 580px;
+    height: 570px;
  }
  /* Heading-Part end */
  /* Featured Part Start */
@@ -111,8 +115,6 @@
     background-color:#F4F4F4 ;
     padding: 70px 10px;
     border-radius: 10px;
-    margin-top: 120px;
-    margin-bottom: 100px;
 }
 .call-service{
     text-align: center;
@@ -133,7 +135,6 @@
     align-items: center;
     background-color: #FEF6F8;
     padding: 80px;
-    margin-bottom: 100px;
    }
    .hot-deals{
     text-align: center;
@@ -145,8 +146,6 @@
    /* Instagram-container-start */
    .instagram-container{
     text-align: center;
-    padding: 20px;
-    margin-bottom: 100px;
    }
    .deswidth{
     width: 580px;
@@ -164,5 +163,46 @@
     width: 250px;
    }
    /* Instagram-container-End */
-
+   /* latest-deal-container-start */
+   .latest-deal-container{
+    text-align: center;
+    background-image: url('assets/images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 300px;
+    padding: 5px;
+   }
+   .inpu{
+    font-size: 18px;
+    width:40%;
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+   }
+   .latest-deal-container h2{
+    padding-top: 60px;
+   }
+   .latest-deal-container p{
+    line-height: 1px;
+   }
+   /* latest-dela-end */
+   /* Footer Part Start */
+   .flower-shop-container{
+    text-align: center;
+   }
+   footer{
+    background-color: #111010;;
+    padding: 50px;
+    color: #fff;
+   }
+   .flower-shop-container h2{
+    color: #fff;
+   }
+   .flower-shop-container p{
+    color: rgba(255, 255, 255, 0.90);
+   }
+/* Footer Part End */
  
