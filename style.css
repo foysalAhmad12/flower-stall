@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.mid{
+    width: 80%;
+    margin: auto;
+}
+.btn-primary{
+    padding: 20px 43px;
+    background-color:  #E55473;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.description{
+    color: #7C7778;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* Header-Part-Start */
+.header{
+    background-color: #FCEEF1;
+}
+.stall-opening-look{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.heading-flower-pic img{
+    margin-top: 50px;
+    height: 580px;
+ }
