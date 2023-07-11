@@ -62,23 +62,48 @@
  /* Heading-Part end */
  .featured-container{
     margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100vh;
+ }
+ .description-of-featured{
     text-align: center;
  }
- .box-flower{
+ .box-card{
+    width: 200px;
+    height: 280px;
+    text-align: center;
+ }
+ .box{
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+ }
+ .box-1 img{
+    width: 60%;
+    height: 220px;
+    margin-top: 30px;
+ }
+ .flower-case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+ }
+ /* .link-case{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    padding: 25px;
+ } */
+ .box a{
+    display: block;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px;
+    color: #272727;
  }
- .box {
-    border-radius: 300px 300px 0px 0px;
-    background: #F2DEE7;
-    width: 464px;
-    height: 538px;
-    padding: 30px ;
- }
- .flower-box{
-    width: 370px;
-    height: 370px;
-    margin-top: 42px;
- }
+
+ 
