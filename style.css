@@ -34,16 +34,6 @@
     font-size: 25px;
     font-weight: 800;
 }
-.featured-container p{
-    width: 580px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-
-
-
-
 
 /* Header-Part-Start */
 .header{
@@ -89,8 +79,8 @@
  }
  .box-1 img{
     width: 60%;
-    height: 220px;
-    margin-top: 30px;
+    height: 280px;
+    margin-top: 70px;
  }
  .flower-case{
     display: flex;
@@ -103,7 +93,7 @@
     text-decoration: underline;
     font-size: 16px;
     font-weight: 800;
-    margin-top: 120px;
+    margin-top: 20px;
     color: #272727;
  }
  .bg-col2{
@@ -119,17 +109,17 @@
     justify-content: space-around;
     align-items: center;
     background-color:#F4F4F4 ;
-    padding: 40px;
+    padding: 70px 10px;
     border-radius: 10px;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .call-service{
     text-align: center;
     
 }
  .call-service img{
-    width: 50px;
+    width: 60px;
  }
  .call-service p{
     font-size: 18px;
@@ -143,7 +133,7 @@
     align-items: center;
     background-color: #FEF6F8;
     padding: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
    }
    .hot-deals{
     text-align: center;
@@ -151,5 +141,28 @@
    .hot-deals p{
     width: 550px;
    }
+   /* .Hot-deals-End */
+   /* Instagram-container-start */
+   .instagram-container{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+   }
+   .deswidth{
+    width: 580px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);;
+   }
+   .insta-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+   }
+   .insta-image img{
+    width: 250px;
+   }
+   /* Instagram-container-End */
 
  
