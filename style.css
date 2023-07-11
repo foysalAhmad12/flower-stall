@@ -21,6 +21,17 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
+.mini-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.featured-container p{
+    width: 580px;
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 
 
@@ -47,4 +58,27 @@
 .heading-flower-pic img{
     margin-top: 50px;
     height: 580px;
+ }
+ /* Heading-Part end */
+ .featured-container{
+    margin-top: 100px;
+    text-align: center;
+ }
+ .box-flower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+ }
+ .box {
+    border-radius: 300px 300px 0px 0px;
+    background: #F2DEE7;
+    width: 464px;
+    height: 538px;
+    padding: 30px ;
+ }
+ .flower-box{
+    width: 370px;
+    height: 370px;
+    margin-top: 42px;
  }
